@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="APIi2cTests" verbose="1">
+    <test name="EchoAPI">
+        <classes>
+            <class name="QAAPIAutomation.RestAPIAuto.echo.EchoTest">
+                <methods>
+                    <include name="postEchoRequest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
