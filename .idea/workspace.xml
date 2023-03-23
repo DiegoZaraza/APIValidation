@@ -5,22 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98323666-a78b-40b2-8364-7fae55569815" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apivalidation/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apivalidation/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apivalidation/utility/ApiUtilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apivalidation/utility/PropertiesRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apivalidation/test/ProductList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/productlistschema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apivalidation/test/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apivalidation/test/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apivalidation/utility/ApiUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apivalidation/utility/ApiUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,17 +50,83 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/dzara/IdeaProjects/APIValidation/src/main/resources"
+    "last_opened_file_path": "C:/Users/dzara/IdeaProjects/APIValidation",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dzara\IdeaProjects\APIValidation" />
       <recent name="C:\Users\dzara\IdeaProjects\APIValidation\src\main\resources" />
       <recent name="C:\Users\dzara\IdeaProjects\APIValidation\src\main\java\org\apivalidation" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.apivalidation" />
     </key>
+  </component>
+  <component name="RunManager" selected="TestNG.ProductList">
+    <configuration name="ProductList" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIValidation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apivalidation.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.apivalidation.test" />
+      <option name="MAIN_CLASS_NAME" value="org.apivalidation.test.ProductList" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductList.getProductList" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIValidation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apivalidation.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.apivalidation.test" />
+      <option name="MAIN_CLASS_NAME" value="org.apivalidation.test.ProductList" />
+      <option name="METHOD_NAME" value="getProductList" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductList.validateSchema" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIValidation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apivalidation.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.apivalidation.test" />
+      <option name="MAIN_CLASS_NAME" value="org.apivalidation.test.ProductList" />
+      <option name="METHOD_NAME" value="validateSchema" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ProductList" />
+        <item itemvalue="TestNG.ProductList.validateSchema" />
+        <item itemvalue="TestNG.ProductList.getProductList" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

@@ -2,10 +2,6 @@ package org.apivalidation.utility;
 
 import io.restassured.response.Response;
 
-import javax.json.Json;
-import javax.json.JsonException;
-import javax.json.JsonObject;
-
 import static io.restassured.RestAssured.given;
 
 public class ApiUtilities {
@@ -43,7 +39,9 @@ public class ApiUtilities {
         return given().headers("Content-Type", "application/json").
                 when().
                 get(URL).
-                then().extract().response();
+                then().
+                extract().
+                response();
     }
 
     /**

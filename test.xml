@@ -3,9 +3,10 @@
 <suite name="APIi2cTests" verbose="1">
     <test name="EchoAPI">
         <classes>
-            <class name="QAAPIAutomation.RestAPIAuto.echo.EchoTest">
+            <class name="org.apivalidation.test.ProductList">
                 <methods>
-                    <include name="postEchoRequest"/>
+                    <include name="getProductList"/>
+                    <include name="validateSchema"/>
                 </methods>
             </class>
         </classes>

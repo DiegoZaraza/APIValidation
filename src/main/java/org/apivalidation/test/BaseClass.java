@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeClass;
 
 public class BaseClass {
 	public static String baseURL;
-	public static int timeResponse;
+	public static long timeResponse;
 	public static ApiUtilities apiUtilities;
 	public static PropertiesRead propertiesRead;
 
@@ -21,7 +21,7 @@ public class BaseClass {
 		propertiesRead.getPropertiesFile("config.properties");
 
 		baseURL = propertiesRead.returnProperties("URL");
-		timeResponse = Integer.parseInt(propertiesRead.returnProperties("TIME_RESPONSE"));
+		timeResponse = Long.parseLong(propertiesRead.returnProperties("TIME_RESPONSE"));
 		Reporter.log("=====Base Class Setup Complete=====", true);
 	}
 	
