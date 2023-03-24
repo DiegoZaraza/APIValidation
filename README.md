@@ -12,11 +12,11 @@ Git:
 
     Whit SSH
     git clone git@github.com:DiegoZaraza/APIValidation.git
-    cd BlankFactor
+    cd APIValidation
     
     With HTTPS
     git clone git@github.com:DiegoZaraza/APIValidation.git
-    cd BlankFactor
+    cd APIValidation
     
 Or simply [download a zip](https://github.com/DiegoZaraza/APIValidation/archive/refs/heads/main.zip) file
 
